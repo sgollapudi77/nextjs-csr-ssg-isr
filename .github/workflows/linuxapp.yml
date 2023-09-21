@@ -1,4 +1,4 @@
-name: Build and deploy Node.js app to Azure Web App - nodeJStestingGHactionIssue
+name: Build and deploy Node.js app to Azure Web App - nodeJsTesting
 
 on:
   push:
@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'nodeJStestingGHactionIssue'
+          app-name: 'nodeJsTesting'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1 }}
           package: release.zip
