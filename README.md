@@ -101,5 +101,3 @@ Use [Favicon Generator](https://www.favicon-generator.org/) and then overwrite t
 There are default styles for responsive heading sizes, and `.layout` to support a max-width for larger screen size. Find more about it on [my blog post](https://theodorusclarence.com/blog/tailwindcss-best-practice#1-using-layout-class-or-container)
 
 ### 11. Preloaded & Self Hosted Inter Fonts
-
-Inter fonts is a variable fonts that is self hosted and preloaded.
